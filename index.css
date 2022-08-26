@@ -1,0 +1,122 @@
+body{
+    background-image: url("background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.nav{
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+hr{
+    width:90%;
+    height:.01vh;
+    position: relative;
+    left:40px
+
+}
+.nav-logo{
+    padding-left: 2%;
+    display: flex;
+    flex-direction: row;
+    width:60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn{
+    opacity: 80%;
+    background-color: #d9d9d94c;
+    display: flex;
+    flex-direction: row;
+    width:60%;
+    align-items: center;
+    padding-right: 2%;
+}
+.nav-btn:hover{
+    opacity: 100%
+}
+.btn{
+    margin-left:5%;
+    width:20%;
+    height:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: white;
+    font-size:1.2em;
+    font-weight:bolder
+}
+a:hover{
+    color: rgb(225, 224, 224);
+    text-shadow: #eae4e4 0px 0px 10px;
+    text-decoration: underline white; 
+
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+    margin-top: 9%;
+}
+.left{
+    width:50%;
+    height:100%;
+    display:flex;
+    color: #fff;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.left h4{
+    margin:0;
+    font-size: 2em;
+}
+.left h1{
+    margin:0;
+    font-size: 10em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin:0;
+    padding: 0;
+}
+.left h6{
+    font-size: 1.1em;
+    width: 100%;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+.right{
+    padding-top: 8%;
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.explore{
+    width:45%;
+    height:40vh;
+    border-radius:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+}
+.explore:hover{
+    box-shadow:  #d9d9d9  0px 0px 100px;
+    letter-spacing: 6px;
+    transition: 2s smooth;
+}

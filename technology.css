@@ -1,0 +1,167 @@
+body{
+    background-image: url("background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.nav{
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+hr{
+    width:90%;
+    height:.01vh;
+    position: relative;
+    left:40px
+
+}
+.nav-logo{
+    padding-left: 2%;
+    display: flex;
+    flex-direction: row;
+    width:60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn{
+    opacity: 80%;
+    background-color: #d9d9d94c;
+    display: flex;
+    flex-direction: row;
+    width:60%;
+    align-items: center;
+    padding-right: 2%;
+}
+.nav-btn:hover{
+    opacity: 100%
+}
+.btn{
+    margin-left:5%;
+    width:20%;
+    height:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: white;
+    font-size:1em;
+    font-weight:bold;
+    margin:auto;
+    text-decoration: underline rgba(203, 202, 202, 0.785);
+}
+a:hover{
+ color: rgb(225, 224, 224);
+ text-decoration: underline white;  
+}
+
+.main{
+    padding-top: 3.2%;
+    width: 100%;
+    height:80vh;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    margin-left: 1%;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white
+}
+.heading{
+    width:60%;
+    height:10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:5%
+}
+.heading h1{
+    font-size: 5em;
+    font-weight: lighter;
+}
+.heading h3{
+    font-size: 2em;
+    font-weight: lighter;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+.sub-con{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height: 80%;
+    width: 100%
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    height: 60%;
+}
+.btn span{
+    height: 13%;
+    width: 22%;
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+    text-align: center;
+    padding: 14%;
+    border: 1px solid white;
+    background: transparent none repeat scroll 0% 0%;
+}
+
+.btn span:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.description{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.description h5{
+    font-size: 1.35em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.description h5 , h1{
+    margin:0;
+    margin-left: 5%;
+    padding: 0
+}
+.description h1{
+    font-size: 4.8em;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-transform: uppercase
+}
+.description p{
+    font-size: 1.35em;
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-left: 5%;
+    width:85%
+}
+.right{
+    width: 35%;
+    margin-left:5%
+}
+.image{
+    width: 90%;
+    height: 91%;
+    margin: 5%
+
+}
